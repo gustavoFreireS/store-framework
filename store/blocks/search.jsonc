@@ -14,10 +14,10 @@
     "children": [
       "search-not-found-layout",
       "breadcrumb.search",
-      "search-title.v2",
       "flex-layout.row#top",
-      "search-fetch-previous",
+      "search-title.v2",
       "flex-layout.row#results",
+      "search-fetch-previous",
       "search-fetch-more"
     ]
   },
