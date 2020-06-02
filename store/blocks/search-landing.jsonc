@@ -14,7 +14,7 @@
   "search-result-layout.customQuery": {
     "props": {
       "query": "Blue Top Retro Camera",
-      "map": "ft",
+      "ft": "MapField",
       "querySchema": {
         "orderByField": "OrderByReleaseDateDESC",
         "hideUnavailableItems": true,
