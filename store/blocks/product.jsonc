@@ -29,6 +29,7 @@
       "product-name",
       "product-identifier.product",
       "buy-button",
+      "shipping-simulator",
       "flex-layout.row"
     ]
   },
