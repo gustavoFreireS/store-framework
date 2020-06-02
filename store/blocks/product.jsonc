@@ -1,6 +1,7 @@
 {
   "store.product": {
     "children": [
+      "breadcrumb",
       "flex-layout.row#main"
     ]
   },
@@ -26,8 +27,10 @@
     },
     "children": [
       "product-name",
-      "buy-button",
-      "product-price"
+      "product-identifier.product",
+      "product-price",
+      "flex-layout.row#qty-sku",
+      "buy-button"
     ]
   },
   "product-price": {
@@ -35,5 +38,13 @@
       "showSavings": true,
       "showListPrice": true
     }
+  },
+  "flex-layout.row#qty-sku": {
+    "children": [
+      "shipping-simulator",
+      "sku-selector",
+      "product-quantity"
+      
+    ]
   }
 }
